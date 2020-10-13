@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.top img{
+    display: flow-root;
+    width: 500px;
+}
+.top h1{
+    background:firebrick;
+    font-size: 20px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-indent: 0.2cm;
+}
+
+
+
+.p-info img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.p-info img::after{
+    clear:both
+}
+.p-info .name{
+    font-size:20px;
+    text-indent: 0.5cm;
+    font-family:'Arial';
+    font-weight: bold;
+    top:20px;
+    float: left;
+}
+.p-info .name::after{
+    clear: both;
+}
+.p-info .info{
+    margin-left: -190px;
+    margin-top: 70px;
+    float: left;
+    font-size:18;
+    text-indent: 0.5cm;
+}
+
+
+.interest{
+    clear:both;
+    margin-left: 5px;
+}
+.interest .title{
+    margin-top:230px;
+    color:firebrick;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+.interest .content{
+    color:rgb(82, 82, 82);
+}
+
+
+.paper{
+    margin-left: 5px;
+}
+.paper .title {
+    margin-top: 20px;
+    color:firebrick;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-transform:uppercase
+}
+.paper .pp1 .pp2{
+    color:rgb(82, 82, 82)
+}
+
