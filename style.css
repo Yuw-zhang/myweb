@@ -20,12 +20,11 @@
 .p-info img::after{
     clear:both
 }
-.p-info p{
+.p-info .text{
     display:block;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     margin-left: 10px;
-    margin-top: 15px;
 }
 
 .p-info .name{
